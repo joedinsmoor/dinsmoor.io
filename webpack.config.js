@@ -15,7 +15,30 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
 	exclude: /node_modules/,
-        use: ['babel-loader']
+        use: [
+          {
+            loader: 'style-loader'
+          },
+          {
+            loader: 'css-loader'
+          },
+          {
+            loader: 'babel-loader'  
+          },
+          {
+            loader: 'postcss-loader',
+            options: {
+              postcssOptions: {
+                plugins: () => [
+                  require('autoprefixer')
+                ]
+              }
+            }
+          },
+          {
+            loader: 'sass-loader'
+          }
+        ]
           
       }   
         ]
