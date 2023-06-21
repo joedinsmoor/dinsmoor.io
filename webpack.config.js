@@ -1,9 +1,9 @@
 const path = require('path')
 
 module.exports = {
-  entry: './src/js/main.js',
+  entry: './src/js/mdb.free.js',
   output: {
-    filename: 'main.js',
+    filename: 'mdb.free.js',
     path: path.resolve(__dirname, 'dist')
   },
   devServer: {
