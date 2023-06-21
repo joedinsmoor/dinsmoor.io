@@ -1,9 +1,19 @@
 {
-
   "scripts": {
-    "start": "webpack serve --mode development",
+    "start": "webpack-dev-server --mode development",
+    "main": "/js/mdb.min.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack build --mode production"
+  },
+  "name": "dinsmoor.io",
+  "description": "-  Building using MDBootstrap",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
-
 }

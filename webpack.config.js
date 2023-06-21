@@ -1,9 +1,9 @@
 const path = require('path')
 
 module.exports = {
-  entry: './js/mdb.min.js',
+  entry: './src/index.js',
   output: {
-    filename: 'mdb.min.js',
+    filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
   devServer: {
@@ -15,28 +15,9 @@ module.exports = {
     rules: [
       {
         test: /\.(scss)$/,
-        use: [
-          {
-            loader: 'style-loader'
-          },
-          {
-            loader: 'css-loader'
-          },
-          {
-            loader: 'postcss-loader',
-            options: {
-              postcssOptions: {
-                plugins: () => [
-                  require('autoprefixer')
-                ]
-              }
-            }
-          },
-          {
-            loader: 'sass-loader'
-          }
+        use: ['babel-loader']
+          
+      }   
         ]
       }
-    ]
-  }
 }
