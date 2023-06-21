@@ -3,7 +3,7 @@ import Data from '../mdb/dom/data';
 import EventHandler from '../mdb/dom/event-handler';
 import Manipulator from '../mdb/dom/manipulator';
 import SelectorEngine from '../mdb/dom/selector-engine';
-import 'detect-autofill';
+//import 'detect-autofill';
 
 /**
  * ------------------------------------------------------------------------
@@ -418,13 +418,13 @@ EventHandler.on(window, 'reset', (e) => {
 });
 
 // auto-fill
-EventHandler.on(window, 'onautocomplete', (e) => {
-  const instance = Input.getInstance(e.target.parentNode);
-  if (!instance || !e.cancelable) {
-    return;
-  }
-  instance.forceActive();
-});
+//EventHandler.on(window, 'onautocomplete', (e) => {
+ // const instance = Input.getInstance(e.target.parentNode);
+ // if (!instance || !e.cancelable) {
+//    return;
+//  }
+//  instance.forceActive();
+///});
 
 onDOMContentLoaded(() => {
   const $ = getjQuery();
