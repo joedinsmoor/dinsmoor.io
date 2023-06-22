@@ -34,7 +34,7 @@ const config = {
         loader: "babel-loader",
       },
       {
-        test: /\.(scss)$/i,
+        test: /\.(css)$/i,
         use: [stylesHandler, "css-loader", "postcss-loader", "style-loader", 'sass-loader'],
       },
       {
@@ -45,11 +45,21 @@ const config = {
   },
 };
 
-module.exports = () => {
-  if (isProduction) {
-    config.mode = "production";
-  } else {
-    config.mode = "development";
-  }
-  return config;
-};
+module.exports = {
+  module: {
+    rules: [
+      {
+        test: /\.(js|jsx)$/i,
+        loader: "babel-loader",
+      },
+      {
+        test: /\.(css)$/i,
+        use: [stylesHandler, "css-loader", "postcss-loader", "style-loader", 'sass-loader'],
+      },
+      {
+        test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif|ico)$/i,
+        type: "asset",
+      },
+    ],
+  },
+}
