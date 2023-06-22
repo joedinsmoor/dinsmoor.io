@@ -9,8 +9,8 @@
     "watch": "webpack --watch",
     "serve": "webpack serve"
   },
-  "name": "my-webpack-project",
-  "description": "My webpack project",
+  "name": "dinsmoor.io",
+  "description": "dinsmoor.io source code",
   "version": "1.0.0",
   "main": "webpack.config.js",
   "author": "",
