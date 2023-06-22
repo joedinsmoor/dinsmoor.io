@@ -27,7 +27,7 @@ const config = {
       template: "./html/contact.html",
       inject: true,
      // favicon: "/img/favicon.ico"
-    }),
+    }),/*
     new HtmlWebpackPlugin({
       template: "./html/porfolio.html",
       inject: true,
@@ -37,7 +37,7 @@ const config = {
       template: "./html/about.html",
       inject: true,
      // favicon: "/img/favicon.ico"
-    }),
+    }),*/
 
     new MiniCssExtractPlugin({
       
