@@ -21,7 +21,7 @@ const config = {
     new HtmlWebpackPlugin({
       template: "index.html",
       inject: true,
-      favicon: "/img/favicon.ico"
+      //favicon: "/img/favicon.ico"
     }),
     /*new HtmlWebpackPlugin({
       template: "/html/contact.html",
