@@ -39,7 +39,9 @@ const config = {
       favicon: "/img/favicon.ico"
     }),*/
 
-    new MiniCssExtractPlugin(),
+    new MiniCssExtractPlugin({
+      
+    }),
 
     // Add your plugins here
     // Learn more about plugins from https://webpack.js.org/configuration/plugins/
