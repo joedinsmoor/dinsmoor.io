@@ -23,7 +23,7 @@ const config = {
       inject: true,
       favicon: "/img/favicon.ico"
     }),
-    new HtmlWebpackPlugin({
+    /*new HtmlWebpackPlugin({
       template: "/html/contact.html",
       inject: true,
       favicon: "/img/favicon.ico"
@@ -37,7 +37,7 @@ const config = {
       template: "/html/about.html",
       inject: true,
       favicon: "/img/favicon.ico"
-    }),
+    }),*/
 
     new MiniCssExtractPlugin(),
 
