@@ -24,17 +24,17 @@ const config = {
       favicon: "/img/favicon.ico"
     }),
     new HtmlWebpackPlugin({
-      template: "contact.html",
+      template: "/html/contact.html",
       inject: true,
       favicon: "/img/favicon.ico"
     }),
     new HtmlWebpackPlugin({
-      template: "porfolio.html",
+      template: "/html/porfolio.html",
       inject: true,
       favicon: "/img/favicon.ico"
     }),
     new HtmlWebpackPlugin({
-      template: "about.html",
+      template: "/html/about.html",
       inject: true,
       favicon: "/img/favicon.ico"
     }),
