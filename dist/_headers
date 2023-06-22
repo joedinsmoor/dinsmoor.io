@@ -7,6 +7,8 @@
 /static/*
   Access-Control-Allow-Origin: *
   X-Robots-Tag: nosnippet
+  X-Content-Type-Options: nosniff
 
 https://myproject.pages.dev/*
   X-Robots-Tag: noindex
+  X-Content-Type-Options: nosniff
