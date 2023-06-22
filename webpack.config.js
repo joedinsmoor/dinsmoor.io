@@ -23,21 +23,21 @@ const config = {
       inject: true,
       //favicon: "/img/favicon.ico"
     }),
-    /*new HtmlWebpackPlugin({
-      template: "/html/contact.html",
+    new HtmlWebpackPlugin({
+      template: "./html/contact.html",
       inject: true,
-      favicon: "/img/favicon.ico"
+     // favicon: "/img/favicon.ico"
     }),
     new HtmlWebpackPlugin({
-      template: "/html/porfolio.html",
+      template: "./html/porfolio.html",
       inject: true,
-      favicon: "/img/favicon.ico"
+     // favicon: "/img/favicon.ico"
     }),
     new HtmlWebpackPlugin({
-      template: "/html/about.html",
+      template: "./html/about.html",
       inject: true,
-      favicon: "/img/favicon.ico"
-    }),*/
+     // favicon: "/img/favicon.ico"
+    }),
 
     new MiniCssExtractPlugin({
       
