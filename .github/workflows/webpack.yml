@@ -30,3 +30,9 @@ jobs:
         npm install --save-dev @babel/core @babel/preset-env \@babel/preset-react babel-loader
         npm install @popperjs/core --save
         npm run build
+
+    - name: Upload coverage reports to Codecov
+      uses: codecov/codecov-action@v3
+      env:
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+
