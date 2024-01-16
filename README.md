@@ -1,3 +1,4 @@
+[![Joe Dinsmor](https://circleci.com/gh/joedinsmoor/dinsmoor.io.svg?style=shield)]([(https://app.circleci.com/pipelines/github/joedinsmoor/dinsmoor.io))
 # Dinsmoor.io source code
 -  Building using MDBootstrap
 
