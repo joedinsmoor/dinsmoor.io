@@ -6,6 +6,7 @@ import {
 	faGithub,
 	faLinkedin,
 	faInstagram,
+	faGoogleDrive
 } from "@fortawesome/free-brands-svg-icons";
 
 import INFO from "../../data/user";
@@ -24,6 +25,18 @@ const Socials = () => {
 						/>
 					</div>
 					<div className="social-text">Follow on Twitter</div>
+				</a>
+			</div>
+
+			<div className="social">
+				<a href={INFO.socials.resume} target="_blank" rel="noreferrer">
+					<div className="social-icon">
+						<FontAwesomeIcon
+							icon={faGoogleDrive}
+							className="social-icon"
+						/>
+					</div>
+					<div className="social-text">Download my Resume!</div>
 				</a>
 			</div>
 
