@@ -3,7 +3,7 @@ const INFO = {
 		title: "Joseph Dinsmoor",
 		name: "Joseph Dinsmoor.",
 		email: "jdinsmoor@dinsmoor.pw",
-		logo: "../logo.png",
+		logo: "../logo.jpg",
 	},
 
 	socials: {
@@ -22,7 +22,7 @@ const INFO = {
 	about: {
 		title: "I'm Joseph Dinsmoor. I am a Software developer specializing in Python, C++, and most other object oriented languges.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. In my spare time, I play guitar in a Deathcore band called Ill Doctrine. I also build tube guitar amplifiers for guitar players across the east coast.",
 	},
 
 	projects: [
