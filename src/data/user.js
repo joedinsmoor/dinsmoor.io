@@ -63,12 +63,10 @@ const INFO = {
 		},
 
 		{
-			title: "Project 5",
+			title: "Auto 3D printer path correction",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"A program that uses machine vision to compare live images of a 3D printer bed with the associated CAD file",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/cpp/cpp.png",
 		},
 	],
 };
