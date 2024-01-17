@@ -29,7 +29,7 @@ const INFO = {
 		{
 			title: "Swirl Search",
 			description:
-				"wirl enterprise search and AI finds and retrieves information from external and internal sources by leveraging traditional search systems. Results are processed with large language models and conversational AI to unlock a wide variety of use cases — from question-answering to insight extraction and workflow automation.",
+				"Swirl enterprise search and AI finds and retrieves information from external and internal sources by leveraging traditional search systems. Results are processed with large language models and conversational AI to unlock a wide variety of use cases — from question-answering to insight extraction and workflow automation.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com/swirlai/swirl-search",
@@ -38,7 +38,7 @@ const INFO = {
 		{
 			title: "KaiOS Scraper",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Custom SQLite Scraper for use with KaiOS SQLite extractions",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com/joedinsmoor/KaiOS_Scraper",
@@ -47,7 +47,7 @@ const INFO = {
 		{
 			title: "AutoRsync",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"A tool for connecting compatible devices to internal Rsync framework for data preservation",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com/joedinsmoor/autoRsync",
@@ -56,7 +56,7 @@ const INFO = {
 		{
 			title: "AutoJLink",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Scripts for automatic memory acquisiton using JLink",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com/joedinsmoor/autojlink",
