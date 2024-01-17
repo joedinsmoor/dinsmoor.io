@@ -39,8 +39,7 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Things I’ve made trying to put my dent in the
-							universe.
+							Things I've created or worked on to fix problems that I encounter in life
 						</div>
 
 						<div className="subtitle projects-subtitle">
@@ -51,9 +50,7 @@ const Projects = () => {
 							interested in any of the projects I've worked on,
 							please feel free to check out the code and suggest
 							any improvements or enhancements you might have in
-							mind. Collaborating with others is a great way to
-							learn and grow, and I'm always open to new ideas and
-							feedback.
+							mind. 
 						</div>
 
 						<div className="projects-list">
