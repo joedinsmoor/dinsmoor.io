@@ -3,6 +3,7 @@ const INFO = {
 		title: "Joseph Dinsmoor",
 		name: "Joseph Dinsmoor.",
 		email: "jdinsmoor@dinsmoor.pw",
+		resume: "../resume.pdf",
 		logo: "../logo.jpg",
 	},
 
@@ -11,6 +12,7 @@ const INFO = {
 		github: "https://github.com/joedinsmoor",
 		linkedin: "https://linkedin.com/in/joseph-dinsmoor",
 		instagram: "https://instagram.com/joedinsmoor",
+		resume: "../resume.pdf"
 	},
 
 	homepage: {
