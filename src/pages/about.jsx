@@ -60,7 +60,12 @@ const About = () => {
 										/>
 									</div>
 								</div>
-
+								<div className="Spotify">
+									<script>
+										<span class="hidden iframe-holder" data-iframe="https://open.spotify.com/embed/artist/2YafwQJGtoEn81X6wPvjdh?utm_source=generator&theme=0"></span>
+										<iframe  src=""></iframe>
+									</script>
+								</div>
 								<div className="about-socials">
 									<Socials />
 								</div>
