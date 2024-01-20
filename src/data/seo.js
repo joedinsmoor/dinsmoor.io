@@ -2,14 +2,14 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"I am a backend developer with expertise in Python and C++. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
+			"I am a backend developer with expertise in Python and C++. I have experience in building scalable, secure and reliable web applications and apis using various frameworks and technologies.",
 		keywords: ["Joseph", "Joseph D", "Joseph Dinsmoor"],
 	},
 
 	{
 		page: "about",
 		description:
-			"I am a backend developer with expertise in Python and C++. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. In my spare time, I play guitar in a Deathcore band called Ill Doctrine. I also build tube guitar amplifiers for guitar players across the east coast.",
+			"I am a backend developer with expertise in Python and C++. I have experience in building scalable, secure and reliable web applications and apis using various frameworks and technologies. In my spare time, I play guitar in a Deathcore band called Ill Doctrine. I also build tube guitar amplifiers for guitar players across the east coast.",
 		keywords: ["Joseph", "Joseph D", "Joseph Dinsmoor"],
 	},
 
