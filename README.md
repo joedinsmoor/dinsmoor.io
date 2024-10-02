@@ -12,6 +12,4 @@
 - node.js and npm fixes
 
 
-This is to test whether I am an idiot
-
   
